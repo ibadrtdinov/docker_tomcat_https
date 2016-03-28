@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # generate keystore
-keytool -genkey -alias tomcat -keyalg RSA -keystore ${CATALINA_HOME}/.keystore -dname "CN=ibadrtdinov, OU=dev, O=org, C=RU" -storepass password -keypass password
+keytool -genkey -alias tomcat -keyalg RSA -keystore ${CATALINA_HOME}/.keystore -dname "CN=msdjl, OU=dev, O=org, C=RU" -storepass password -keypass password
 
 # configure https
 cat <<EOF > tmpsslconfig.tmp
